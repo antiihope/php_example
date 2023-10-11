@@ -33,7 +33,7 @@
     <!-- listen for coming post requets -->
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // get item from the pos363605230002t request
+        // get item from the post request
         $randomItem = $_POST["item"];
         // use the random item to get a random image from unsplash
         $url = "https://source.unsplash.com/500x500/?" . $randomItem;
